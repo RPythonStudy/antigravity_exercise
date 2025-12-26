@@ -28,18 +28,20 @@ https://antigravity.google/download
 Google Antigravity를 효과적으로 사용하기 위해 필요한 주요 설정입니다.
 
 ### 1) 터미널 명령 승인 설정
-에이전트가 터미널 명령을 실행할 때, 사용자의 승인을 받도록 설정할 수 있습니다. 이를 통해 의도치 않은 명령 실행을 방지할 수 있습니다.
-설정/Agent 설정 항목에서
-Terminal Command Auto Execution을 Always Proceed와 Request Review 중 토글로 설정할 수 있습니다. 
+에이전트가 터미널 명령을 실행할 때, 사용자의 승인을 받도록 설정할 수 있습니다. 이를 통해 의도치 않은 명령 실행을 방지할 수 있습니다.   
+설정/Agent 설정 항목에서   
+Terminal Command Auto Execution을   
+Always Proceed와 Request Review 중 토글로 설정할 수 있습니다. 
 
 ### 2) 외부 파일 인식 설정
-내 컴퓨터(로컬) 내에서 현재 열려 있는 프로젝트 폴더 외부의 파일을 에이전트가 인식하고 참조할 수 있도록 설정합니다.
-설정/Agent 설정 항목에서
-File Access 중
-Agent Non-Workspace File Access 를 on/off 할 수 있습니다. 
+내 컴퓨터(로컬) 내에서 현재 열려 있는 프로젝트 폴더 외부의 파일을 에이전트가 인식하고 참조할 수 있도록 설정합니다.   
+설정/Agent 설정 항목에서   
+File Access 중   
+Agent Non-Workspace File Access   
+를 on/off 할 수 있습니다. 
 
-### 3) 브라우저 사용 설정
-에이전트가 웹 브라우저를 제어하여 정보를 검색하거나 웹 기반 작업을 수행할 수 있도록 권한과 설정을 확인합니다.
+### 3) 브라우저 사용 설정   
+에이전트가 웹 브라우저를 제어하여 정보를 검색하거나 웹 기반 작업을 수행할 수 있도록 권한과 설정을 확인합니다.   
 General 설정항목 중  Enable Agent Web Tools를 on/off 할 수 있습니다. 
 ---
 

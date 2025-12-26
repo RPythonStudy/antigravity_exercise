@@ -1,0 +1,14 @@
+[R 그래프 그리기 요청]
+1. `연도별 수입 및 지출 현황.csv` 파일을 읽어서 데이터프레임으로 만들어줘.
+2. `ggplot2` 패키지를 사용하여 수입과 지출 컬럼을 막대 그래프(Bar Chart)로 시각화해줘.
+   - 데이터는 `tidyr`를 사용하여 넓은 형태(wide)에서 긴 형태(long)로 변환하여 사용해줘.
+   - X축: 연도
+   - Y축: 금액
+   - 색상(Fill): 수입/지출 구분
+   - 막대는 `position = "dodge"` 옵션을 사용하여 나란히 배치해줘.
+3. 그래프 제목은 '연도별 수입 및 지출 현황'으로 설정해줘.
+4. Windows 환경에서 한글이 깨지지 않도록 폰트(예: "Malgun Gothic")를 테마에 적용해줘.
+   - `theme(text = element_text(family = "Malgun Gothic"))`
+5. 완성된 그래프를 `finance_graph_r.png` 파일로 저장해줘.
+6. 필요한 패키지(`ggplot2`, `tidyr`, `readr` 등)가 설치되어 있지 않다면 설치하는 코드도 `renv`를 고려해서 포함해줘.
+7. 코드는 `visualize_finance.R` 파일로 저장해줘.

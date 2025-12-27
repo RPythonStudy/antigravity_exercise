@@ -5,13 +5,16 @@
 ## 1. 설치 안내
 
 ### 1) 다운로드
-Google Antigravity 공식 배포 사이트에서 Windows 또는 MacOS용 설치 파일을 다운로드합니다.   
-아래의 링크를 CTRL키를 누른 상태에서 클릭하시면 이동이 됩니다.   
-https://antigravity.google/download
+- Google Antigravity 공식 배포 사이트에서 Windows 또는 MacOS용 설치 파일을 다운로드합니다.   
+- 아래의 링크를 CTRL키를 누른 상태에서 클릭하시면 이동이 됩니다.   
+- https://antigravity.google/download
 
 ### 2) 설치
-다운로드한 파일을 실행하여 설치를 진행합니다.
-*   **설치 폴더**: 최근의 경향에 따라 Antigravity도 사용자경로가 기본설치 경로입니다.
+- 다운로드한 파일을 실행하여 설치를 진행합니다.   
+- 설치폴더는 기본값을 추천합니다.   
+- 예시: C:\Users\Ben\AppData\Local\Programs\Antigravity   
+- 최근에는 개발과 관련된 앱들이 시스템폴더에 설치하는 것보다 사용자폴더에 설치하는 것을 선호하는 경향이 반영된 것이라 판단됩니다.   
+
 
 ### 3) 로그인
 설치 중 또는 실행 후 Google 계정으로 로그인을 진행합니다.   

@@ -5,10 +5,9 @@
 ## 1. 설치 안내
 
 ### 1) 다운로드
-Google Antigravity 공식 배포 사이트(https://antigravity.google/download)에서 Windows 또는 MacOS용 설치 파일을 다운로드합니다. <a href="https://antigravity.google/download" target="_blank">Windows 또는 MacOS용 설치 파일 다운로드</a>
-```browser
+Google Antigravity 공식 배포 사이트에서 Windows 또는 MacOS용 설치 파일을 다운로드합니다.   
+아래의 링크를 CTRL키를 누른 상태에서 클릭하시면 이동이 됩니다.
 https://antigravity.google/download
-```
 
 ### 2) 설치
 다운로드한 파일을 실행하여 설치를 진행합니다.

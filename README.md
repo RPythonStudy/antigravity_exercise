@@ -16,11 +16,33 @@
 - 최근에는 개발과 관련된 앱들이 시스템폴더에 설치하는 것보다 사용자폴더에 설치하는 것을 선호하는 경향이 반영된 것이라 판단됩니다.   
 
 
-### 3) 실행
-- 설치 중 또는 실행 후 Google 계정으로 로그인을 진행합니다.   
-- 만약에 로그인은 하지 않으면 AI agent를 사용기능은 사용할 수 없음을 유의하시길 바랍니다.
+### 3) 최초 실행과 초기 설정
+- 최초 실행 시에는 초기 설정이 진행됩니다.
+- VS Code로부터 설정을 가져오거나 설정을 가져오지 않고 진행하는 것을 선택하시면 됩니다.
+- Editor Theme이라고 편집기의 배경색 등을 선택하시면 됩니다. (어두운 것을 선호하시면 Tokyo Night 추천)
+- Antigravity Agent의 사용옵션을 어떻게 할지 선택을 하시면 됩니다.
+   - Secure Modes를 선택한다면 아래의 옵션으로 설정하게 됩니다.
+      - Browser URL Allowlist에 있는 사이트만 접속가능
+      - Terminal 실행: 사용자가 승인을 해야 진행
+      - Browser Javascript Execution도 사용자 승인이 필요
+      - Artifact Review: 사용자 승인 필요
+      - Respect .gitignore: .gitignore 파일에는 접속하지 않음
+      - Workspace Isolation: workspace는 일종의 작업폴더개념이며 이 바운더리 이외에는 agent가 접근하지 않음.
+   - Review-driven development/Agent-driven development/Custom configuration의 선택에 따라 아래의 설정들이 달라집니다. (처음 사용해보시는 분들은 Review-driven development를 추천합니다.)
+      - Terminal excution policy: Request Review or Always Proceed
+      - Review policy: 사용자의 요청을 agent가 어떻게 구혈하지 계획을 수립한 후 사용자에거 검토를 요청할지에 대한 설정입니다. Always Proceed or Agent Decide or Request Review
+      - Javascriipts excution policy: agent가 특정 웹사이트에 접속한 후 이 웹사이트를 분석하기 위해서 자바스크립트 코드를 자동생성하여 실행하기 전에 승인을 요청할지에 대한 설정입니다.   
+- Keybindings는 편집기의 입력을 일반적인 방식으로 할지 전문개발자들 사이에서 일부 선호되는 Vim 방식으로 할지이며Vim이 뭔지 모르는 상황이면 당연히 일반적인 방식을 선택하면 됩니다.
+- Extensions는 Antigravity에 설치하고자 하는 확장기능으로 연구회의 내공을 고려할 때, Configure를 선태갛여 Python만 선택하시는 것을 추천합니다.
+- Sign with Google: Antigravity에서 AI agent 기능을 사용하고자 한다면 반드시 자신의 goole 계정으로 sign in 해야 합니다.
+   - 계정을 선택한 후에는
+   - Google을 통해서 다운로드 했는지 확인한 후 로그인을 진행하게 됩니다.
+   - 해당 PC에서 이 과정을 최초로 진행한 경우에는 검증코드를 문자로 전송받고 이를 PC에 입력하는 과정이 있을 수 있습니다.
 
+## 2. 사용법
 
+### 1) 원하는 프로젝트 폴더 만들기
+- open folder로 원하는 위치에 원하는 폴더를 만들어 열면 자신의 프로젝트를 시작할 수 있습니다. (예시는 C:\Users\<사용자명>\projects\antigravity_exercise)
 
 
 ---

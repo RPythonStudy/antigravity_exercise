@@ -1,4 +1,4 @@
 https://www.alio.go.kr/item/itemReport.do?seq=2025041002977223&disclosureNo=2025041002977223 웹사이트의 정적 HTML 파일인 
 데이터 URL: https://www.alio.go.kr/upload/disclosure/2025/04/10/2025041002977223/doc.html에서 
-연도별 수입합계 및 지출합계만을 수집하여 "연도별_수입_및_지출_현황.csv" 파일로 저장해주
+연도별 수입합계 및 지출합계만을 수집하여 "연도별_수입_및_지출_현황.csv" 파일로 저장해줘.
 실행속도를 빠르게하기 위해 필요한 패키지는 `pandas`, `requests` 등 최소한으로만 사용하도록 해줘.

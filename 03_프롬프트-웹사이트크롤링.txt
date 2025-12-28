@@ -1,4 +1,5 @@
-https://www.alio.go.kr/item/itemReport.do?seq=2025041002977223&disclosureNo=2025041002977223 웹사이트의 정적 HTML 파일인 
-데이터 URL: https://www.alio.go.kr/upload/disclosure/2025/04/10/2025041002977223/doc.html에서 
-연도별 수입합계 및 지출합계만을 수집하여 "연도별_수입_및_지출_현황.csv" 파일로 저장해줘.
-이 프롬프트를 agent가 구현하는 속도를 최대한 빠르게 할 수 있도록 필요한 패키지를 가상환경 .venv에 설치함 때 `pandas`, `requests` 등 최소한으로만 설치하는 등 구현속도를 최대한 빠르게 해줘사용하도록 해줘.
+현재폴더의 .venv 가상환경을 사용하고, 필요한 패키지(pandas, requests, lxml)를 설치 후 진행해줘
+데이터 URL: https://www.alio.go.kr/upload/disclosure/2025/04/10/2025041002977223/doc.html에서 HTML 데이터를 pandas의 read_html 함수를 사용해 즉시 파싱해줘
+결과 데이터프레임 중 '수입합계'와 '지출합계' 텍스트가 포함된 테이블을 식별하고,
+해당 테이블에서 '수입합계', '지출합계'가 포함된 행(Row)만 필터링하여 
+'연도별_수입_및_지출_현황.csv'로 저장하는 파이썬 스크립트를 작성하고 즉시 실행해줘.
